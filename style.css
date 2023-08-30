@@ -111,3 +111,22 @@
     display: flex;
     gap: 24px;
 }
+
+/* latest-deals style start  */
+.latest-deals{
+    padding: 122px 0 122px 0;
+    justify-content: center;
+    background-image: url('./Flower Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+}
+.latest-deals-input-container{
+    width: 100%;
+    text-align: center;
+}
+.latest-deals-input{
+    border: 0px;
+    background-color: white;
+    width: 700px;
+    height: 64px;
+    padding-left: 22px;
+}
