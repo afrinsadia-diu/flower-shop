@@ -1,0 +1,27 @@
+*{
+    font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+/* header styles  */
+.header{
+    /* width: 1920px;
+    height: 850px; */
+    background: rgba(229, 84, 115, 0.10);
+    margin:0%;
+    display: flex;
+    padding: 0px 240px;
+}
+.header-container{
+    display: center;
+    padding-top: 100px;
+}
+.header-title{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+.header-container{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
