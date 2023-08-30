@@ -17,6 +17,7 @@
 }
 .primary-paragraph{
     text-align: center;
+    padding-bottom: 30px;
 }
 
 /* header styles  */
@@ -91,7 +92,8 @@
 
 /* Hot-deals style start  */
 .hot-deals{
-    gap: auto;
+    
+    width: 100%;
     justify-content: center;
     display: flex;
     border-radius: 8px;
@@ -99,7 +101,8 @@
     padding: 100px 0 100px 0;
 }
 .hot-deal-content{
-    /* align-items: center; */
+    /* width: 100%;
+    align-items: center; */
 
 }
 .deal-special{
@@ -114,6 +117,7 @@
 
 /* latest-deals style start  */
 .latest-deals{
+    margin-bottom: 0;
     padding: 122px 0 122px 0;
     justify-content: center;
     background-image: url('./Flower Asset/Rectangle\ 9.png');
@@ -129,4 +133,49 @@
     width: 700px;
     height: 64px;
     padding-left: 22px;
+}
+/* bonus section style  */
+.bonus-part{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 128px;
+}
+.card {
+    
+    margin-right: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 18.07%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .bonus-container {
+    padding: 2px 16px;
+  }
+
+
+/* Footer section style  */
+.footer{
+    padding: 128px 0 128px 0;
+    width: 100%;
+    background-color: #111010;
+    text-align: center;
+}
+.footer-paragraph{
+    color: rgba(255, 255, 255, 0.90);
+/* text-align: center; */
+font-size: 18px;
+font-weight: 400;
+}
+#footer title{
+    color: #d96161;
+}
+.copy-right{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
 }
