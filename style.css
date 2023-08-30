@@ -2,6 +2,22 @@
     font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif;
 }
+
+/* Primary styles start */
+
+.primary-margin{
+    margin: 180px 240px;
+}
+.primary-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.primary-paragraph{
+    text-align: center;
+}
+
 /* header styles  */
 .header{
     /* width: 1920px;
@@ -24,4 +40,17 @@ font-family: 'Open Sans', sans-serif;
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
+    padding-right: 20px;
 }
+.btn-primary{
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    color: white;
+    border: 0px;
+    font-size: 20px;   
+    /* font-weight: 700; */
+}
+
+
+
