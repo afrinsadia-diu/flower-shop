@@ -1,6 +1,8 @@
-*{
+*, body{
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 /* Primary styles start */
@@ -19,19 +21,42 @@
     text-align: center;
     padding-bottom: 30px;
 }
+.btn-primary{
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    color: white;
+    border: 0px;
+    font-size: 20px;   
+    /* font-weight: 700; */
+}
 
 /* header styles  */
 .header{
-    /* width: 1920px;
-    height: 850px; */
     background: rgba(229, 84, 115, 0.10);
     margin:0%;
     display: flex;
     padding: 0px 240px;
+    height: 800px;
+}
+.header-paragraph{
+    margin-bottom: 30px;
 }
 .header-container{
-    display: center;
+    /* display: center; */
     padding-top: 100px;
+    width: 50%;
+}
+.header-img{
+    height: 100%;
+    width: 50%;
+    margin-bottom: -200px;
+}
+.header-img img{
+    height:600px;
+    margin-top: 200px;
+    margin-left: 150px;
+    
 }
 .header-title{
     color: #272727;
@@ -44,51 +69,47 @@
     font-weight: 400;
     padding-right: 20px;
 }
-.btn-primary{
-    border-radius: 8px;
-    background: #E55473;
-    padding: 20px 43px;
-    color: white;
-    border: 0px;
-    font-size: 20px;   
-    /* font-weight: 700; */
-}
+
 
 /* Feature section style  */
 .featured-details{
     margin: 178px 0px 48px 0px;
 }
-.featured-pictures{
-    width: 300px;
-    height: 350px;
-    display: flex;
-    align-items: center;
-    /* margin-left: 200px; */
+.featured-container{
+   width: 100%;
+   justify-content: center;
+   display: flex;
+   gap: 24px;
+}
+.featured-pictures a{
+   display: block;
+    /* align-items: center; */
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
 
 }
-.img-bg-1{
-    padding: 67px 75px 0px 75px;
+.img-bg{
+    margin: 0 auto;
+    width: 300px;
+    height: 350px;
+    padding: 70px 35px ;
+
+    padding-bottom: 0;
     border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
-    width: 464px;
-    height: 538px;
-    /* margin-right: 24px; */
+    
+}
+.img-bg-1{
+    background: url(<path-to-image>), rgba(167, 33, 98, 0.15) 50% / cover no-repeat;/
 }
 .img-bg-2{
-    padding: 67px 75px 0px 75px;
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(5, 151, 160, 0.15);
-    width: 464px;
-    height: 538px;
-    /* margin-right: 24px; */
+    background: url(<path-to-image>), rgba(5, 151, 160, 0.15) 50% / cover no-repeat;/
 }
 .img-bg-3{
-    padding: 67px 75px 0px 75px;
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(71, 125, 17, 0.15);
-    width: 464px;
-    height: 538px;
+    background: url(<path-to-image>), rgba(71, 125, 17, 0.15) 50% / cover no-repeat;/
 }
+
 
 /* Hot-deals style start  */
 .hot-deals{
@@ -101,13 +122,33 @@
     padding: 100px 0 100px 0;
 }
 .hot-deal-content{
-    /* width: 100%;
-    align-items: center; */
-
+    width: 50%;
+    text-align: center;
+}
+.hot-deal-container{
+    /* width: 100%; */
+    justify-content: center;
+    display: flex;
+    border-radius: 8px;
+    /* background: rgba(229, 84, 115, 0.05); */
+    padding: 100px 0 100px 0;
+    padding: 0 240px;
+}
+.title{
+    padding-top: 70px;
 }
 .deal-special{
     color: #E55473;
 }
+.flower{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+/* .flower img{
+    width: 50%;
+    margin: 0 auto;
+} */
 
 /* Instagram section style  */
 .insta-img{
@@ -172,6 +213,10 @@ font-weight: 400;
 }
 #footer title{
     color: #d96161;
+    
+}
+footer h1{
+    color: white;
 }
 .copy-right{
     color: rgba(255, 255, 255, 0.40);
